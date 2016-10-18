@@ -1,0 +1,10 @@
+runtime: python27
+module: gcpubsub
+threadsafe: true
+api_version: 1
+
+handlers:
+- url: .*
+  script: big_query.application
+
+
